@@ -1,0 +1,228 @@
+/*primary-text-color  #212121 */
+/*secondary color  #757575 */
+/*accent color: #2196F3;*/
+
+
+/* background #ffffff */
+/* secondary background #2F303A */
+
+/* our-works-button's background #F5F4FA */
+
+
+/* logo 
+Font Raleway 
+Weight 700 
+Size 26px 
+Line height 30.52px 
+Letter 3% */
+
+/* nav
+Font Roboto 
+Weight 500 
+Size 14px 
+Line height 16.41px 
+Letter 2% */
+
+/*h1 
+roboto 900 
+Letter 6%*/
+
+/* p
+roboto 400*/
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+        color: var(--primary-text-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-accent {
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style:none
+}
+
+/* Site-nav list */
+
+.header-link:hover, 
+.header-link:focus
+{ color: var(--accent-color);
+}
+
+.header-link:active 
+{
+color: var(--primary-text-color);
+}
+
+.header-link-portfolio-current{
+        color: var(--accent-color);
+    }
+.header-link-studio-current
+{
+        color: var(--accent-color);
+    }
+
+
+/* body */
+
+/* hero - поменять фон текста на рамку  */
+
+.hero-title {
+    color: #ffffff;
+    background: #2F303A ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color:#ffffff;
+    background: var(--accent-color);
+     border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+    background: #ffffff;
+}
+
+.hero-button:active {
+    color: var(--secondary-text-color);
+        background: #ffffff;
+}
+/* our features */
+
+.features-title{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.section-text{
+        color: var(--secondary-text-color);
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+}
+
+/* our team */
+
+.section-title{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.invisible-title 
+{
+    color:#ffffff;
+}
+
+.name-of-specialist {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-text-our-team {
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
+/* our-works-button */
+
+.our-works-button {
+    color: var(--primary-text-color);
+    background: #F5F4FA;
+    border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.our-works-button:hover,
+.our-works-button:focus {
+    color: #ffffff;
+    background: var(--accent-color);
+}
+
+.our-works-button:active {
+    color: var(--secondary-text-color);
+    background: #ffffff;
+}
+
+.h3-our-works{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.section-text-our-works{
+    color: var(--secondary-text-color);
+        background: #ffffff;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+
+  
