@@ -289,6 +289,10 @@ padding-right: 30px;
     margin: 0;
     }
 
+.types-of-works {
+
+    margin-bottom: 94px;
+}
 
 
 
@@ -413,6 +417,7 @@ flex-wrap: wrap;
 /* background-color: teal; */
 padding: 0;
 margin: 0;
+
 }
 
 .our-works-container li{
@@ -420,6 +425,8 @@ width: calc((100% - 60px)/3);
 margin-right: 30px;
 margin-left: 0px;
 margin-bottom: 30px;
+border: 1px solid #EEEEEE;
+width: 370px;
 
 /* background-color: tomato; */
 }
