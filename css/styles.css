@@ -27,6 +27,11 @@ body {
     padding-bottom: 94px;
 }
 
+h2,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 a {
     text-decoration: none;
 }
@@ -36,15 +41,10 @@ ul {
 
 }
 
-/* li{
-    margin: 0;
-} */
-
 button {
     font-family: inherit;
 
     cursor: pointer;
-
 }
 
 img {
@@ -255,7 +255,7 @@ padding-top: 0;
     margin-left: 0;
     padding-left: 0;
     width: 270px;
-    outline-color: 1px solid teal;
+    /* outline-color: 1px solid teal; */
 }
 
 .our-features li:not(:last-child) {
@@ -312,7 +312,6 @@ margin-right: 30px;
     margin-bottom: 0;
 
     padding: 0;
-    margin: 15px;
     
     }
 
@@ -409,7 +408,8 @@ margin-right: 30px;
     display: flex;
     justify-content:center;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    padding-left: 0;
 }
 
 .our-works-button-line .item+.item{
@@ -470,7 +470,7 @@ margin-bottom: 30px;
 }
 
 .div-our-works{
-    padding: 24px 20px;
+    margin: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: 0;
 }
@@ -480,6 +480,7 @@ margin-bottom: 30px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 
     color: var(--primary-text-color);
 }
@@ -509,7 +510,7 @@ margin-bottom: 30px;
     display: block;
 
     padding-left: 0px;
-    padding-right: 35px;
+    padding-right: 20px;
     padding-top: 0px;
     padding-bottom: 20px;
 }
@@ -522,7 +523,6 @@ margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin-bottom: 9px;
 }
 
 .footer-adress-link:hover,
@@ -535,10 +535,22 @@ margin-bottom: 30px;
 }
 
 .list-footer-link{
-    margin-top: 9px;
-    margin-right: 0px;
     padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
+
+.list-footer-link>li:not(:last-child){
+    margin-top: 0px;
+    margin-bottom: 9px;
+ 
+}
+
+
 
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
@@ -548,7 +560,7 @@ margin-bottom: 30px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    margin: 0 0 9px ;
+    margin: 0 ;
     padding-left: 0;
     padding-right: 0;
 }
